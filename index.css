@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'borel', sans-serif;
+    font-weight: 200;
+    font-size: 55px;
+    padding-top: 30px;
+    
+}
+
+.nav-item{
+    margin-left: 180px;
+    padding-inline: 10px;
+
+}
+
+
+li:hover{
+    
+    cursor: pointer;
+    background-color:rgb(244, 211, 27);
+    border-radius: 20px;
+}
+  
+  .column {
+    flex: 25%;
+  }
+
+ .material-symbols-outlined{
+    text-align: center;
+ }
+  
+ /* .row{
+  display: flex;
+} */
+
+#chefs{
+    
+    vertical-align: middle;
+    width: 2px;
+    height: 300px;
+    border-radius:50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+  #chefs:hover {
+    cursor: pointer;
+    transform: translateY(-12px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+.footer{
+   
+    background-image: url(footer.jpg);
+
+}
+
+.footer h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Notosans';
+  font-size: 50px;
+}
+
+
+#title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.bestsellers{
+  background-image: url(bestsellers.jpg);
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  justify-content: space-between;
+  
+}
+
+.card {
+  width: 31%;
+  background-color: rgb(155, 211, 65);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 255, 0.3);
+  margin: 7px;
+  box-sizing: border-box; 
+}
+
+.card img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content{
+  padding: 16px;
+}
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.card-content p{
+  color: #302b2b;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.footercontainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+  background-image: url(last.jpg);
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 50%;
+}
+.icons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 1;
+}
+
+.icons a:hover{
+  background-color: #111;
+  transition: 0.3s;
+}
+.icons a:hover i {
+  color: white;
+  transition: 0.3s;
+}
+
+.footerNav{
+  margin: 30px;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.footerNav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerbottom{
+  background-color: #000;
+  padding: 5px;
+  text-align: center;
+}
+
+.footerbottom p {
+  color: white;
+}
